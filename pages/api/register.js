@@ -1,5 +1,7 @@
-import dbConnect from "@/utils/mongoose";
-import User from "@/models/User";
+// pages/api/register.js
+import dbConnect from '../../utils/mongoose';
+import User from '../../models/User';
+
 import bcrypt from "bcryptjs";
 
 export default async function handler(req, res) {
